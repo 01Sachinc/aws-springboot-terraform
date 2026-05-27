@@ -1,0 +1,22 @@
+# Local .terraform directory containing downloaded providers
+.terraform/
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# State files and backups
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Custom variables files (which contain credentials)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash logs
+crash.log
+crash.*.log
